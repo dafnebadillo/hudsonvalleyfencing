@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -24,6 +20,8 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+	  
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2851,12 +2849,25 @@ input, select, textarea {
 
 			#header .logo .symbol {
 				margin-right: 0.65em;
+				
 			}
+			.destacado {
+				font-weight: bold;
+				color: white;
+			}
+
+			.imagen-redimensionada {
+				width: 300px; /* Cambia este valor para ajustar el ancho */
+				height: 200px; /* Cambia este valor para ajustar la altura */
+			}
+			  
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 300px; /* Cambia este valor al tamaño deseado */
+  					height: 300px; /* Cambia este valor al mismo tamaño deseado */
+					align-items: center;
+			  		text-align: center;
 				}
 
 		#header nav {
